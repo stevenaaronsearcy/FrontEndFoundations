@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: white;
+  background-color: blue;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+}
+
+.date {
+  display: flex;
+  margin: auto;
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
+
+.container {
+  padding: 20px;
+  justify-content: center;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: aquamarine;
+}
+
+.photos img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+
+}
+
+
+

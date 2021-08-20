@@ -1,0 +1,16 @@
+body {
+    background-color: azure;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    img {
+        display: flex;
+        width: 250px;
+        height: auto;
+    }
+}
